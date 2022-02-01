@@ -1,26 +1,26 @@
 [
-	{
-		"id": "1",
+  {
+    "id": 1,
     "title": "4 Hours of the Most Professional and Polished Hosts/DJs in our Area!",
     "item_1": "Our Unlimited Digital Music Library",
     "item_2": "Easy-to-use Online Planning Process",
     "item_3": "Professional Sound and Lighting Display",
     "item_4": "Includes Wireless Microphone"
   },
-	{
-		"id": "2",
-	  "title": "Everything Listed in our Standard Package, plus...",
-    "item_1": "Room Lighting or Ceremony Music*",
-    "item_2": "",
-    "item_3": "",
-    "item_4": ""
-	},
-	{
-		"id": "3",
-	  "title": "Make Your Celebration Amazing!",
+  {
+    "id": 2,
+    "title": "Everything Listed in our\nStandard Package, plus...",
+    "item_1": "Room Lighting or *Ceremony Music",
+    "item_2": null,
+    "item_3": null,
+    "item_4": null
+  },
+  {
+    "id": 3,
+    "title": "Make Your Celebration Amazing!",
     "item_1": "Guaranteed choice of DJ",
-    "item_2": "Choice of either:",
-    "item_3": "Photobooth",
-    "item_4": "or any two of Ceremony Music*, Uplighting, Monogram"
-	}
+    "item_2": "Choice of either Photobooth or any two of Ceremony Music*, Uplighting, Monogram",
+    "item_3": null,
+    "item_4": null
+  }
 ]
