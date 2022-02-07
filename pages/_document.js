@@ -25,6 +25,9 @@ export default class MyDocument extends Document {
                         rel="stylesheet"
                     />
                     <link
+                        href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@500&display=swap"
+                        rel="stylesheet">
+                    <link
                         rel="stylesheet"
                         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                     />
