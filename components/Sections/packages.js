@@ -99,7 +99,7 @@ const SectionPackages = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className="disclaimer">* Choose your DJ, Choose Quain Tull as your DJ, Ceremoney Music, Monogram, Uplighting, Photobooth.</div>
+                <div className="disclaimer">Addtional services: Choose your DJ, Choose Quain Tull as your DJ, Ceremoney Music, Monogram, Uplighting, Photobooth.</div>
             </Container>
             <style jsx>
                 {`
@@ -170,9 +170,9 @@ const SectionPackages = (props) => {
                     }
                     .disclaimer {
                         text-align: center;
-                        margin-top: 15px;
+                        margin-top: 30px;
                         font-size: 14px;
-                        color: #a1a1a1;
+                        color: #000000;
                     }
                 `}
             </style>
