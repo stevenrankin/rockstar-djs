@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
                     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-                    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+                    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet"/>
                     <link
                         rel="stylesheet"
                         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
