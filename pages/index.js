@@ -32,7 +32,7 @@ const HomePage = (props) => {
             <Head>
                 <title>Rockstar DJs | St.Louis, MO</title>
                 <meta name="title" content="Rockstar DJs | St.Louis, MO" />
-                <meta property="og:url" content="http://rockstardjs.com" />
+                <meta property="og:url" content="https://rockstardjs.com" />
                 <meta name="description" content="LET US MAKE YOUR DAY PERFECT!" />
             </Head>
             <HeroSlider />
