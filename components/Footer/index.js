@@ -35,8 +35,9 @@ const Footer = (props) => {
                         </div>
                         <div className="link">
                             <div>
-                                <a href="https://custompinayatas.com">
-                                   Site beautifully designed by Custom Piñatas.
+                           Designed by    
+                            <a href="https://custompinayatas.com">
+                                   Custom Piñatas.
                                 </a>
                             </div>
 
