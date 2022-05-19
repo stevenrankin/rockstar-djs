@@ -6,7 +6,7 @@ import {
     SectionReviews,
     SectionWhy,
     SectionPayment,
-   // SectionDjs,
+    SectionDjs,
     SectionPackages,
     SectionGallery,
     SectionFacebook,
