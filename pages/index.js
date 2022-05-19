@@ -6,7 +6,7 @@ import {
     SectionReviews,
     SectionWhy,
     SectionPayment,
-    SectionDjs,
+    // SectionDjs,
     SectionPackages,
     SectionGallery,
     SectionFacebook,
@@ -40,7 +40,7 @@ const HomePage = (props) => {
             <SectionReviews />
             <SectionWhy />
             <SectionPayment />
-            <SectionDjs data={djData} />
+           // <SectionDjs data={djData} />
             <SectionPackages data={packagesData} />
             <SectionGallery />
             <SectionFacebook />
