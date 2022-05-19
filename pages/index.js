@@ -20,8 +20,8 @@ const HomePage = (props) => {
     const {data} = props;
 
     // dj data
-    // let djData = data?.djData;
-    // djData = formatGoogleSheetData(djData);*
+    let djData = data?.djData;
+    djData = formatGoogleSheetData(djData);*
 
     // packages data
     let packagesData = data?.packageData;
@@ -40,7 +40,7 @@ const HomePage = (props) => {
             <SectionReviews />
             <SectionWhy />
             <SectionPayment />
-        //  <SectionDjs data={djData} />
+            <SectionDjs data={djData} />
             <SectionPackages data={packagesData} />
             <SectionGallery />
             <SectionFacebook />
