@@ -21,7 +21,7 @@ const HomePage = (props) => {
 
     // dj data
     let djData = data?.djData;
-    djData = formatGoogleSheetData(djData);*
+    djData = formatGoogleSheetData(djData);
 
     // packages data
     let packagesData = data?.packageData;
