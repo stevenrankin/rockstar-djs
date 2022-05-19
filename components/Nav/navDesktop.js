@@ -32,7 +32,7 @@ const NavDesktop = (props) => {
                 </div>
                 <ul>
                     <li onClick={() => handleRouting('section-why')}>Why</li>
-                    <li onClick={() => handleRouting('section-djs')}>DJs</li>
+                   /*<li onClick={() => handleRouting('section-djs')}>DJs</li>*/
                     <li onClick={() => handleRouting('section-packages')}>Packages</li>
                     <li onClick={() => handleRouting('section-gallery')}>Gallery</li>
                     <li onClick={() => handleRouting('section-photobooth')}>
