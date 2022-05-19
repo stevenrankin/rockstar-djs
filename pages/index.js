@@ -6,7 +6,6 @@ import {
     SectionReviews,
     SectionWhy,
     SectionPayment,
-    // SectionDjs,
     SectionPackages,
     SectionGallery,
     SectionFacebook,
@@ -18,10 +17,6 @@ import {djSpreadSheetUrl, packagesSpreadsheetUrl} from '../lib/globals';
 
 const HomePage = (props) => {
     const {data} = props;
-
-    // dj data
-    let djData = data?.djData;
-    djData = formatGoogleSheetData(djData);
 
     // packages data
     let packagesData = data?.packageData;
@@ -40,7 +35,6 @@ const HomePage = (props) => {
             <SectionReviews />
             <SectionWhy />
             <SectionPayment />
-           // <SectionDjs data={djData} />
             <SectionPackages data={packagesData} />
             <SectionGallery />
             <SectionFacebook />
@@ -52,16 +46,7 @@ const HomePage = (props) => {
 export default HomePage;
 
 export async function getServerSideProps(context) {
-    // dj data
-    let djData = [];
-    let djResponse = {};
-    try {
-        djResponse = await fetch(djSpreadSheetUrl);
-        djData = await djResponse.json();
-    } catch (e) {
-        console.warn(e);
-    }
-
+  
     // packages data
     let packageData = [];
     let packageResponse = {};
