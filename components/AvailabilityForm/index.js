@@ -16,7 +16,7 @@ const AvailibityForm = (props) => {
             return;
         }
 
-        const url = `http://rockstardjstlplanning.com/request_information.asp?checkdate=${month}%2F${day}%2F${year}&djidnumber=8512&showlogo=True&sca_idnumber=5792`;
+        const url = `https://rockstardjstlplanning.com/check_availability.asp?djidnumber=8512`;
         const win = window.open(url, '_blank');
         win.focus();
 
